@@ -1,0 +1,277 @@
+
+    .section-title{
+        font-size: 36px;
+    }
+    
+    /* BTN */
+    .btn{
+        display: inline-block;
+        text-decoration: none;
+        border: 0;
+        padding: 10px 25px;
+        border-radius: 3px;
+    }
+    .btn-dark{
+        background:rgb(230, 90, 10);
+        color: white;
+    }
+    .btn-light{
+        background:rgba(179, 192, 194, 0.616);
+        color: black;
+    }
+    /* GRID */
+    .full-width{
+        width: 100%;
+    }
+    .fixed-width{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .col-1{
+        width: calc(100% / 12 * 1);
+    }
+    .col-2{
+        width: calc(100% / 12 * 2);
+    }
+    .col-3{
+        width: calc(100% / 12 * 3);
+    }
+    .col-4{
+        width: calc(100% / 12 * 4);
+    }
+    .col-5{
+        width: calc(100% / 12 * 5);
+    }
+    .col-6{
+        width: calc(100% / 12 * 6);
+    }
+    .col-7{
+        width: calc(100% / 12 * 7);
+    }
+    .col-8{
+        width: calc(100% / 12 * 8);
+    }
+    .col-9{
+        width: calc(100% / 12 * 9);
+    }
+    .col-10{
+        width: calc(100% / 12 * 10);
+    }
+    .col-11{
+        width: calc(100% / 12 * 11);
+    }
+    .col-12{
+        width: calc(100% / 12 * 12);
+    }
+    [class^="col"]{
+        float: left;
+        padding: 15px;
+    }
+    /* NAV */
+    nav{
+        /* height: 60px; */
+        background-color: lightcoral;
+    }
+    /* nav .logo{
+        float: left;
+    } */
+    nav .logo a{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    /* nav .menu{
+        float: left;
+    }
+    nav .login{
+        float: right;
+    }
+    nav li{
+        float: left;
+    } */
+    nav a{
+        display: inline-block;
+        line-height: 40px;
+        color: black;
+        text-decoration: none;
+        padding: 0 12px;
+    }
+    
+    /* HEADER */
+    /* header{
+        background: url("https://picsum.photos/id/125/1600/800") no-repeat center center;
+        background-size: cover;
+        padding-top: 300px ;
+        padding-bottom: 300px;
+        text-align: center;
+        color: black;
+    } */
+    /* header第二種置中法 */
+    header{
+        background: url("https://picsum.photos/id/125/1600/800") no-repeat center center;
+        background-size: cover;
+        height: 600px;
+        color: black;
+        text-align: center;
+        display: table;
+    }
+    header .fixed-width{
+        display: table-cell;
+        vertical-align: middle; 
+    }
+    header h1{
+        font-size: 45px;
+        text-shadow: 5px 3px 1px darkcyan;
+        /* text-shadow: x偏移 y偏移 模糊程度 顏色 */
+    }
+    header p{
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px rgb(114, 107, 103);
+    }
+    /* PRODUCT */
+    
+    #product{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: rgba(0, 139, 139, 0.719);
+    }
+    .product-item{
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        color: #000;
+        font-weight: bold;
+        position: relative;
+        background: #000;
+    }
+    .product-item:hover .product-gallery{
+        opacity: 0.5;
+    }
+    .product-title{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-top: 35%;
+        color:white;
+        opacity: 0;
+        font-size: 26px;
+    
+    }
+    .product-item:hover .product-title{
+        opacity:1;
+    }
+    /* ACTION */
+    #action{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color:rgba(128, 121, 119, 0.178);
+    }
+    #action p{
+        margin: 15px 0;
+        line-height: 1.5;
+    }
+    #action h3{
+        font-size: 32px;
+    }
+    /* BUSINESS */
+    #business{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background:rgb(165, 59, 59);
+        color: white;
+    }
+    #business p{
+        margin:15px 0;
+        line-height: 1.5;
+    }
+    #business h3{
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    #business img{
+        border-radius: 5%;
+    }
+    
+    /* SOCIAL */
+    #social{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        background-color: rgba(155, 143, 143, 0.671);
+    }
+    .social-icon{
+        background-color: #ccc;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        line-height: 130px;
+        font-size: 0.7rem;
+    }
+    .social-icon i{
+        color: black;
+        vertical-align: middle;
+        text-shadow: 2px 2px 2px #094246f3;
+    }
+    #social p{
+        width: 130px;
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    
+    /* STORE */
+    .store-item{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .store-item:hover .store-gallery{
+        opacity: 0.4;
+    }
+    /* FOOTER */
+    footer{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: rgba(128, 128, 128, 0.623);
+    }
+    footer h3{
+        margin-bottom: 25px;
+    }
+    footer a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        line-height: 2em;
+    }
+    footer a:hover{
+        color: brown;
+    }
+    .sns a{
+        display: block;
+        width: 40px;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        /* vertical-align: middle; */
+        margin-bottom: 6px;
+    }
+    .sns a:hover{
+        color: white;
+        background: rgba(5, 1, 1, 0.733);
+    }
+    .below-icon{
+        margin: 20px 0;
+    }
+    /* COPYRIGHT */
+    #copyright{
+        background-color: white;
+        font-size: 14px;
+    }
+    #copyright a{
+        color: black;
+        font-size: 14px;
+        margin-right: 10px;
+    }

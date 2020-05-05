@@ -1,0 +1,58 @@
+@media (min-width:1200px){
+
+
+/* GRID */
+
+.fixed-width{
+    width: 1200px;
+    margin: auto;
+}
+
+.col-lg-1{
+    width: calc(100% / 12 * 1);
+}
+.col-lg-2{
+    width: calc(100% / 12 * 2);
+}
+.col-lg-3{
+    width: calc(100% / 12 * 3);
+}
+.col-lg-4{
+    width: calc(100% / 12 * 4);
+}
+.col-lg-5{
+    width: calc(100% / 12 * 5);
+}
+.col-lg-6{
+    width: calc(100% / 12 * 6);
+}
+.col-lg-7{
+    width: calc(100% / 12 * 7);
+}
+.col-lg-8{
+    width: calc(100% / 12 * 8);
+}
+.col-lg-9{
+    width: calc(100% / 12 * 9);
+}
+.col-lg-10{
+    width: calc(100% / 12 * 10);
+}
+.col-lg-11{
+    width: calc(100% / 12 * 11);
+}
+.col-lg-12{
+    width: calc(100% / 12 * 12);
+}
+
+/* HEADER */
+/* header{
+    background: url("https://picsum.photos/id/125/1600/800") no-repeat center center;
+    background-size: cover;
+    padding-top: 300px ;
+    padding-bottom: 300px;
+    text-align: center;
+    color: black;
+} */
+/* header第二種置中法 */
+}

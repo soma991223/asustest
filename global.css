@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap");
+* {
+    font-family: "PT Sans Narrow" , "Microsoft Jhenghei";
+    box-sizing: border-box;
+}
+html,body,h1,h2,h3,h4,h5,h6,ol,ul,li,p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+} 
+img{
+    width: 100%;
+    vertical-align: middle;
+}
+li{
+    list-style: none;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.vam{
+    font-size: 0;
+}
+.vam::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.vam > *{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    float: none!important;
+}
+.t-left{
+    text-align: left;
+}
+.t-center{
+    text-align: center;
+}
+.t-rihgt{
+    text-align: right;
+}
+@media (min-width:600px){
+    .t-sm-left{
+        text-align: left;
+    }
+    .t-sm-center{
+        text-align: center;
+    }
+    .t-sm-rihgt{
+        text-align: right;
+}
+}
+@media (min-width:960px){
+    .t-md-left{
+        text-align: left;
+    }
+    .t-md-center{
+        text-align: center;
+    }
+    .t-md-rihgt{
+        text-align: right;
+}
+}
+@media (min-width:1200px){
+    .t-lg-left{
+        text-align: left;
+    }
+    .t-lg-center{
+        text-align: center;
+    }
+    .t-lg-rihgt{
+        text-align: right;
+}
+}
+.no-padding{
+    padding: 0!important;
+}
